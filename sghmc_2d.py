@@ -1,8 +1,7 @@
-# -*- coding: utf-8 -*-
 """
 Created on Tue Dec  3 21:43:09 2019
 
-@author: sharada
+@author: sharada murali
 SG-HMC in 2D
 """
 
