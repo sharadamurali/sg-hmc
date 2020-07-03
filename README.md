@@ -1,8 +1,10 @@
 # Stochastic Gradient Hamiltonian Monte Carlo
 
-A simple python implementation of Stochastic Gradient Hamiltonian Monte Carlo[1] for an application with synthetic data, first described in [2]. 
+A simple python implementation of Stochastic Gradient Hamiltonian Monte Carlo[1] for an application with synthetic data, described in [2]. 
 
-The two parameters to be estimated, &theta;<sub>1</sub> and &theta;<sub>2</sub> are assumed to be drawn from normal distributions. 100 data points are generated, and the SGLD algorithm is run for 10,000 epochs. The history of the estimated parameters forms the posterior distribution, displayed in Fig. 1.
+The two parameters to be estimated, &theta;<sub>1</sub> and &theta;<sub>2</sub> are assumed to be drawn from normal distributions. 100 data points are generated, and the SGLD algorithm is run for 10,000 epochs. The history of the estimated parameters forms the posterior distribution, displayed below with the variation in the estimated gradient for the two parameters.
+
+<img src="https://github.com/sharadamurali/sg-hmc/blob/master/images/sghmc_estimated_posterior_3.png?raw=true" alt="alt text" width="400"> <img src="https://github.com/sharadamurali/sg-hmc/blob/master/images/sghmc_grad.png?raw=true" alt="alt text" width="400">
 
 
 ## References
